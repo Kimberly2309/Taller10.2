@@ -5,13 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafío localStorage - index.html</title>
+    <style>
+    body {
+     font-family: Arial, sans-serif;
+     text-align: center;
+     padding: 20px;
+    }
+    .buttondata {
+      display: inline-block;
+      padding: 8px 14px;
+      margin-top: 20px;
+      background-color: #2b852e;
+      color: black;
+      font-size: 14px;
+      border-radius: 5px;   
+    }
+  </style>
 </head>
 <body>
     <h1>Desafío localStorage</h1>
     <input id="inputText" />
     <button id="buttonText">Guardar!</button>
     <br>
-    <a href="data.html">Ver en data.html</a>
+    <p id="mensaje" style="color: green; font-size: 15px;"></p>
+    <a href="data.html" class="buttondata">Ver en data.html</a>
     <script src="js/index.js"></script>
 </body>
 </html>
